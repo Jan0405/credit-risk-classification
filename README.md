@@ -7,7 +7,7 @@ In this section, describe the analysis you completed for the machine learning mo
 
 * The purpose of the analysis is to train a model that can classify and identify the creditworthiness of borrowers
 * The dataset is of historical lending activity from a peer-to-peer lending services company, and what you are trying to predict are the people who are likely to default on a loan.
-* The variables that is being predicted is the y_prediction. I start with the y which holds the values of the loan_status column and use the value_counts method to see the count of good and bad loans in the dataset. I use this information to build the test data for training and prediction.
+* The variables that is being predicted is the lr_prediction. I start with the y which holds the values of the loan_status column and use the value_counts method to see the count of good and bad loans in the dataset. I use this information to build the test data for training and prediction.
 * I build two models and used `LogisticRegression` method on one, and `RandomOverSampler` on the other.
 
 ## Results
